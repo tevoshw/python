@@ -1,0 +1,1 @@
+O comando "python --version" faz com que podemos ver se realmente está instalado e verificar sua versão.
