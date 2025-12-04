@@ -3,11 +3,13 @@
 usuarios = []
 
 def input_usuario():
+    # ESCOLHER A OPÇÃO DO MENU
     escolha_usuario_menu = int(input("Qual opção você deseja selecionar?: "))
     return escolha_usuario_menu
     
 
 def cadastrar():
+    # CADASTRAR USUARIOS E SEUS DADOS // PEGAR INPUT SOBRE SUAS INFORMAÇÕES
     nome = input("Digite seu nome: ").lower()
     idade = int(input("Digite sua idade: "))
 
@@ -17,12 +19,14 @@ def cadastrar():
     usuarios.append(cria_valores_no_banco_de_dados)
 
 def listar_usuarios(usuarios):
+    # LISTAR TODOS OS USUARIOS 
     print("Listando todo os usuários: ")
     for pessoa in usuarios:
         print(f"Nome: {pessoa["Nome"]}, Idade: {pessoa["Idade"]}")    
 
 
 def buscar_usuarios(usuarios):
+    # PROCURAR UM USUÁRIO POR VEZ E SEUS DADOS
     procurar_usuario_especifico = input("Qual usuário você deseja procurar?: ")
     for pessoa in usuarios:
         if pessoa["Nome"] == procurar_usuario_especifico:
@@ -44,6 +48,7 @@ def menu():
 
 
 def main():
+    # FUNÇÃO QUE COMANDA TODA AS OUTRAS // MAIN
     menu()
     escolha_usuario_menu = input_usuario()
 
