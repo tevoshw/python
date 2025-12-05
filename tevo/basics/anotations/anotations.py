@@ -11,5 +11,5 @@ print(numero_inteiro, nome)
 def test_numbers(base: float,  height: float) -> float:
     return base * height
 
-result: float =  test_numbers(1,2) 
+result: float =  test_numbers(10.3 , 2.5)
 print(result)
