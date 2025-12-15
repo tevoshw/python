@@ -31,4 +31,3 @@ for x in list1:
 
 # SEE THE LENGHT OF THE LIST
 print(len(list1))
-
