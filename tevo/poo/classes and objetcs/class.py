@@ -28,11 +28,14 @@ class Vendedor():
         else:
             print(self.nome, "Não bateu a meta")
 
+
+# Object 1
 vendedor1 = Vendedor("John")
 vendedor1.vendeu(1000)
 vendedor1.bateu_metas(600)
 
 
+# Object 2 
 vendedor2 = Vendedor("Ana")
 vendedor2.vendeu(100)
 vendedor2.bateu_metas(200)
