@@ -13,7 +13,7 @@ else:
     BUT THIS IR FOR LITTLE THINS, IF HAVE OTHER VENDEDOR YOU NEED TO DO THAT AGAIN, AGAIN AND AGAIN.
 
 """
-
+""
 class Vendedor():
     def __init__(self, nome: str):
         self.nome: str = nome
