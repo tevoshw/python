@@ -25,7 +25,7 @@ class Animal2:
 class Gato2(Animal2):
     def som(self):
         super().som() #  A WAY TO USE METHODS FROM THE FATHER CLASS
-        print("Gato está miando 2")
+        print("Gato está miando parte 2")
 
 gato2 = Gato2()
 gato2.som()
