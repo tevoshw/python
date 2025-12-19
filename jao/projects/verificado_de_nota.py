@@ -7,7 +7,7 @@
 noia1 = input("qual foi a sua nota?: ")
 noia2 = input("qual foi a sua nota?: ")
 noia3 = input("qual foi a sua nota?: ")
-media = ( int(noia1) + int(noia2) + int(noia3) / 3
+media = ( int(noia1) + int(noia2) + int(noia3) )/ 3
 if media < 7:
     print(f"voce foi reprovado, sua nota foi: {media}")
 else:
