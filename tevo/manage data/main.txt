@@ -1,0 +1,6 @@
+[2025-12-20 18:32] Programa iniciado
+[2025-12-20 18:33] Dados carregados com sucesso
+[2025-12-20 18:34] Modelo treinado
+[2025-12-20 18:35] PrevisÃ£o realizada
+Teste número 1
+Teste número 2

@@ -1,0 +1,25 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Tevo",
+      "idade": 17,
+      "email": "tevo@email.com",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Breno",
+      "idade": 18,
+      "email": "breno@email.com",
+      "ativo": false
+    },
+    {
+      "id": 3,
+      "nome": "João",
+      "idade": 17,
+      "email": "joao@email.com",
+      "ativo": true
+    }
+  ]
+}
