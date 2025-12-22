@@ -1,4 +1,5 @@
 from __module_ import *
+from main_folder import *
 
 def __name_():
     print(__name__)
