@@ -26,3 +26,4 @@ juncao("oi","sou","joao")
 def geral(nome,idade):
     print(f"Olá, eu sou o {nome} e tenho {idade} anos")
 geral("joao",17)
+

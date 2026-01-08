@@ -8,7 +8,7 @@ class Teste():
 
     def venda(self, vendas):
         self.vendas = vendas
-        print(f"Voce fez um total de {self.vendas}")
+        print(f"Voce fez um total de {self.vendas} vendas")
         self.bateu_meta()
 
     def bateu_meta(self):
