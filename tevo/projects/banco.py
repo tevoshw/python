@@ -1,3 +1,4 @@
+
 class Banco():
     def __init__(self):
         self.dinheiro = 1000
