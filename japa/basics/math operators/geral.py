@@ -1,0 +1,7 @@
+numero1 = int(input('Digite um qualquer número: '))
+numero2 = int(input('Digite um número egundo número qualquer: '))
+print(f'a soma deles é {numero1+numero2}')
+print(f'a subtração deles é {numero1-numero2}')
+print(f'a multiplicação deles é {numero1*numero2}')
+print(f'a divisão deles é {numero1/numero2}')
+print(f'o resto da deivisão deles é {numero1%numero2}')
