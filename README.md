@@ -18,6 +18,8 @@ Atualmente, o repositório é utilizado por:
 - **Tevo**
 - **Breno**
 - **João**
+- **Leonardo**
+- **Matheus**
 
 Cada participante possui **sua própria pasta**, onde pode criar exercícios, testar códigos, registrar anotações e desenvolver pequenos projetos pessoais.
 
