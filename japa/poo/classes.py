@@ -11,16 +11,18 @@ class Biscoito:
     def Mastigar(self):
         self.mordida = self.peso - 3.5
 
-    def mensagem(self):
-        print(f'''O biscoito possuia as seguintes características
+    # def mensagem(self): 
+    def __str__(self): # DUNDER METHOD
+        return f'''O biscoito possuia as seguintes características
                 temperatura: {self.temperatura}
                 formato: {self.formato}
                 peso(anterior da mordida): {self.peso}
-                peso(posterior da mordida): {self.mordida}''')
+                peso(posterior da mordida): {self.mordida}'''
 
 
 # declaração do objeto
 comida = Biscoito()
 comida.formato = 'coração' # substituição de um atributo
 comida.Mastigar()
-print(comida.mensagem())
+# print(comida.mensagem())
+print(comida)
