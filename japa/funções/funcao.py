@@ -5,7 +5,8 @@ def dobro(a, b, c):
     print(x, y, z)
 
 dobro(5, 2, 4)
-#dobro(2, 6) # erro pela ausência de um dos parâmetros
+dobro(2, 6) # erro pela ausência de um dos parâmetros
+
 
 # a ausência de um parâmetro não interfere na execução, pois foi explicitado um valor anteriormente
 def soma(m=0, n=0):
@@ -16,7 +17,10 @@ soma1 = soma(3)
 soma2 = soma(4, 5)
 print(soma1, soma2)
 
+
+
 # o * permite ter um número variado de parâmetros
+# *args
 def numero(*x):
     total = 0
     for num in x:
