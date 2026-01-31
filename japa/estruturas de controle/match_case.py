@@ -1,5 +1,6 @@
-dia = 265
+dia = int(input('coloque um dia da semana: '))
 
+# match é utilizado para lidar com múltiplas condições
 match dia:
     case 1:
         print('domingo')
@@ -16,7 +17,7 @@ match dia:
     case 7:
         print('sábado')
 
-    # caso não seje executado nenhum dos casos acima
+    # o _: é usado caso não seje executado nenhum dos casos acima
     # pode ser colocado também uma outra variável para receber a variável dia, mas não tem necessidade
     case _:
         print('dia inválido')

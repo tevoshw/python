@@ -40,7 +40,7 @@ if escolha == 'sim':
         sim_ou_nao = input('Gostaria de fazer mais contas? ').lower()
         if sim_ou_nao == 'sim':
             pass
-        elif sim_ou_nao == 'não' or 'nao':
+        elif sim_ou_nao == 'não' or sim_ou_nao == 'nao':
             print('Entendi, volte quando quiser!')
             break
 
