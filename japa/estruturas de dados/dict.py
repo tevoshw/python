@@ -12,3 +12,6 @@ print(pessoas.keys()) # vai me dar a identificação do elemento
 print(pessoas.values()) # vai me dar o valor
 print(pessoas.items()) # vai me dar tanto a identificação quanto o valor
 print(f'Você se chama {pessoas["nome"]}, possui {pessoas["idade"]} anos e pesa {pessoas["peso"]:.1f}kg')
+
+# for chave, valor in dados.items():
+# print(chave, valor)
