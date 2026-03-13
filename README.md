@@ -16,7 +16,6 @@ Este projeto serve tanto como material de estudo quanto como histórico de apren
 Atualmente, o repositório é utilizado por:
 
 - **Tevo**
-- **Breno**
 - **João**
 - **Leonardo**
 - **Matheus**
