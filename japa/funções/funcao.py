@@ -5,7 +5,7 @@ def dobro(a, b, c):
     print(x, y, z)
 
 dobro(5, 2, 4)
-dobro(2, 6) # erro pela ausência de um dos parâmetros
+dobro(2, 6, 4) # erro pela ausência de um dos parâmetros
 
 
 # a ausência de um parâmetro não interfere na execução, pois foi explicitado um valor anteriormente
