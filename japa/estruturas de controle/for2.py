@@ -1,0 +1,10 @@
+# SIMPLIFACAÇÃO DE FOR
+
+for i in range(5):
+    print(i)
+
+print('\n')
+
+for i in range(5): print(i)
+
+# AMBOS OS MODOS DE ESCRITA EXECUTAM A MESMA COISA, A DIFERENÇA É QUE A SEGUNDA OPÇÃO É PREFERÍVEL CASO A INSTRUÇÃO SEJA ALGO SIMPLES
